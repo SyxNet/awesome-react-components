@@ -4,6 +4,7 @@ awaiting approval libs
  - react-intl-tel-input -> phone number input
  - react-payment -> credit card input
  - react-stores -> data store (i didn't move it in Miscellaneous, check if it correctly landed in data store)
+ - react-jsonschema -> Form Logic
 
 
 TODO
@@ -28,4 +29,7 @@ Unmainted/Deprecated
  - [redux-ui](https://github.com/tonyhb/redux-ui) - Easy UI state management for react redux.
 
 
+# TODO make sure it's removed
+
+ - [apollo-client]
 

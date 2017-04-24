@@ -31,7 +31,6 @@ If there are several libraries implementing the same creative idea, then please 
 
  - [react-canvas](https://github.com/Flipboard/react-canvas) - High performance &lt;canvas&gt; rendering for React components.
  - [react-icons](https://github.com/gorangajic/react-icons) - Svg react icons of popular icon packs using ES6 imports.
- - [react-track](https://github.com/gilbox/react-track) - Track the position of DOM elements. Create cool animations.
  - [react-render-visualizer](https://github.com/redsunsoft/react-render-visualizer) - Render visualizer for ReactJS.
 
 
@@ -408,6 +407,7 @@ What libraries can I use to easliy implement such carousel with React?</em>
 
  - [react-slick](https://github.com/akiran/react-slick) - React carousel component.
  - [react-swipeable-views](https://github.com/oliviertassinari/react-swipeable-views) - A React component for swipeable views.
+ - [react-swipe](https://github.com/voronianski/react-swipe) - Swipe.js as a React component.
 
 
 
@@ -1528,29 +1528,14 @@ When the user navigates to another page, almost all websites instantly hide the 
 
 
 
-# Form Component Sets
+
+
+
+# UI Frameworks
 
 <em>
-Collections of form Components to build forms and user inputs.
-
-Instead of picking
+Set of components and reponsive layout system
 </em>
-
- - [formsy-react-components](https://github.com/twisty/formsy-react-components) - A set of React JS components for use in a formsy-react form. Markup adheres to Bootstrap 3 form structure.
- - [formsy-material-ui](https://github.com/mbrookes/formsy-material-ui) - A Formsy compatibility wrapper for Material-UI form components.
- - [react-input-enhancements](https://github.com/alexkuz/react-input-enhancements) - Set of enhancements for input control.
- - [react-widgets](https://github.com/jquense/react-widgets) - An &agrave; la carte set of polished, extensible, and accessible inputs built for React.
-
-
-
-
-
-
-## UI Frameworks
-
-### Responsive
-
-*Set of components + responsive layout system*
 
  - [elemental](https://github.com/elementalui/elemental) - A flexible and beautiful UI framework for React.js.
  - [rctui](https://github.com/Lobos/react-ui) - A collection of components for React.
@@ -1564,15 +1549,25 @@ Instead of picking
  - [react-foundation](https://github.com/nordsoftware/react-foundation) - Foundation as React components.
  - [semantic-ui-react](https://github.com/Semantic-Org/Semantic-UI-React) - The official Semantic-UI-React integration.
  - [pivotal-ui-react](https://github.com/pivotal-cf/pivotal-ui) - React components based on a custom version of the Bootstrap library.
+ - [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap) - Bootstrap 3 components built with React.
+ - [reactstrap](https://github.com/reactstrap/reactstrap) - Simple React Bootstrap 4 components.
+ - [react-mdl](https://github.com/tleunen/react-mdl) - React Components for Material Design Lite.
+ - [react-materialize](https://github.com/react-materialize/react-materialize) - Material design for react, powered by materializecss.
+ - [react-toolbox](https://github.com/react-toolbox/react-toolbox) - A set of React components implementing Google&#39;s Material Design specification with the power of CSS Modules.
+ - [react-material](https://github.com/BerkeleyTrue/react-material) - Material design components written with React.js and React Style.
+ - [material-ui](https://github.com/callemall/material-ui) - React Components that Implement Google&#39;s Material Design.
+ - [react-essence](https://github.com/Evo-Forge/Essence) - Essence - The Essential Material Design Framework.
 
 
-#### Bootstrap
+
+
+# Bootstrap UI frameworks
 
  - [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap) - Bootstrap 3 components built with React.
  - [reactstrap](https://github.com/reactstrap/reactstrap) - Simple React Bootstrap 4 components.
 
 
-#### Material Design
+# UI Frameworks with Material Design
 
  - [react-mdl](https://github.com/tleunen/react-mdl) - React Components for Material Design Lite.
  - [react-materialize](https://github.com/react-materialize/react-materialize) - Material design for react, powered by materializecss.
@@ -1582,26 +1577,24 @@ Instead of picking
  - [react-essence](https://github.com/Evo-Forge/Essence) - Essence - The Essential Material Design Framework.
 
 
-### Mobile
+
+
+
+# Mobile UI Frameworks
 
  - [onsenui](https://github.com/OnsenUI/OnsenUI) - Hybrid Mobile App UI Framework for iOS and Material Design with Angular and React Components.
  - [reactionic](https://github.com/reactionic/reactionic) - React Ionic.
  - [touchstonejs](https://github.com/touchstonejs/touchstonejs) - Mobile App Framework powered by React.
 
 
-### Component Collections
+# Component Set
 
-*Set of components without layout system*
+*Collection of components without layout system*
 
  - [dataminr-react-components](https://github.com/dataminr/react-components) - Collection of reusable React Components and utility functions.
  - [react-components](https://github.com/Khan/react-components) - React components used by Khan Academy.
 
 
-### Other
-
- - [react-desktop](https://github.com/gabrielbull/react-desktop) - React UI Components for macOS Sierra and Windows 10.
- - [aframe-react](https://github.com/ngokevin/aframe-react) - Build virtual reality experiences with A-Frame and React.
- - [admin-on-rest](https://github.com/marmelab/admin-on-rest) - A frontend framework for building admin SPAs on top of REST services, using React and Material Design.
 
 
 
@@ -1622,77 +1615,83 @@ Instead of picking
 
 
 
-# DOM Reporter
+
+
+
+# Visibility Reporter
 
 <em>
-Avoid it if you can, but for a certain class of (mostly animation-related) problems, you need to query the DOM.
+Report when a component becomes visible/hidden to the user.
+
+I have many elements that are not within the viewport and hence not visible to the user and I want the components to be aware of wheter they are visible to the user or not.
 </em>
-
- - [react-track](https://github.com/gilbox/react-track) - Track the position of DOM elements. Create cool animations.
-
-
-
-
-## UI Utilites
-
-
-### Reporter
-
-*Report computed styles*
-
-#### Visibility Reporter
-
-*Report when a component becomes visible/hidden*
 
  - [react-waypoint](https://github.com/brigade/react-waypoint) - A React component to execute a function whenever you scroll to an element.
  - [react-visibility-sensor](https://github.com/joshwnj/react-visibility-sensor) - Sensor component for React that notifies you when it goes in or out of the window viewport.
 
 
-#### Measurement Reporter
 
-*Determine and report measurements of an element*
+
+
+
+# Size Reporter
+
+<em>
+Report initial value and change of width/height to allow responsive components.
+
+I basically want "reponsive design on the component level"; I want my component to be aware of its width and height for it to be able to render differently depending on how much width/height is available.
+</em>
 
  - [react-measure](https://github.com/souporserious/react-measure) - Compute measurements of a React component.
- - [react-height](https://github.com/nkbt/react-height) - Component-wrapper to determine and report children elements height.
- - [react-height-reporter](https://github.com/berrtech/react-height-reporter) - React component-wrapper detecting height changes of it&#39;s children.
  - [react-dimensions](https://github.com/digidem/react-dimensions) - React higher-order component to get dimensions of container.
  - [react-component-queries](https://github.com/ctrlplusb/react-component-queries) - Provide props to your Components based on their Width and/or Height.
  - [react-sizeme](https://github.com/ctrlplusb/react-sizeme) - Make your React Components aware of their width and height.
 
 
 
-### Device Input
 
-*Turn user input into actions*
 
-#### Keyboard Events
+
+
+
+
+
+
+
+
+
+# Shortcut Utilities
+
+<em>
+Keyboard event utilities to help implement shortcuts.
+</em>
 
  - [react-keydown](https://github.com/glortho/react-keydown) - Lightweight keydown wrapper for React components.
  - [react-hotkeys](https://github.com/chrisui/react-hotkeys) - Declarative hotkey and focus area management for React.
 
-#### Scroll Events
 
- - [react-scroll-components](https://github.com/jeroencoumans/react-scroll-components) - A set of components that react to page scrolling.
 
-#### Touch Events
+
+# Touch Events
+
+<em>
+Add touch event su
+</em>
 
  - [react-hammerjs](https://github.com/JedWatson/react-hammerjs) - ReactJS / HammerJS integration. Support touch events in your React app.
  - [react-tappable](https://github.com/JedWatson/react-tappable) - Tappable component for React.
 
-#### Touch Swipe
-
- - [react-swipe](https://github.com/voronianski/react-swipe) - Swipe.js as a React component.
-
-#### Mouse Events
-
- - [react-aim](https://github.com/gabrielbull/react-aim) - Determine the cursor aim for triggering mouse events.
 
 
 
 
-### Meta Tags
+# Meta Tags Management
 
-*Set meta tags, <title>, children of <head>*
+<em>
+Manage meta tags, `<title>`, children of `<head>`.
+
+
+</em>
 
  - [react-helmet](https://github.com/nfl/react-helmet) - A document head manager for React.
  - [react-document-title](https://github.com/gaearon/react-document-title) - Declarative, nested, stateful, isomorphic document.title for React.
@@ -1700,9 +1699,14 @@ Avoid it if you can, but for a certain class of (mostly animation-related) probl
 
 
 
-### Portal
 
-*Render an element at an arbitrary DOM node*
+
+# Portal
+
+<em>
+Render an element at an arbitrary DOM node.
+
+<em>
 
  - [react-portal](https://github.com/tajo/react-portal) - React component for transportation of modals, lightboxes, loading bars... to document.body.
  - [react-layer-stack](https://github.com/fckt/react-layer-stack) - Simple but ubiquitously powerful and agnostic layering system for React. Useful for any kind of windowing/popover/modals/tooltip application.
@@ -1710,12 +1714,20 @@ Avoid it if you can, but for a certain class of (mostly animation-related) probl
 
 
 
-### Test User Behavior
 
-*A/B tests, experiments, ...*
+
+
+# A/B Test Utilities
+
+<em>
+Tools to run tests to determine what design works best.
+
+We have several design ideas and we want to test out which one is the most effective. We want to do A/B testing;
+</em>
 
  - [react-ab](https://github.com/olahol/react-ab) - Simple declarative and universal A/B testing component for React.
  - [react-experiments](https://github.com/HubSpot/react-experiments) - React components for implementing UI experiments.
+
 
 
 
@@ -1785,7 +1797,13 @@ Flux introduced the concept of unidirectional data flow over one or several data
 
 
 
-### Form Logic
+# Form Logic
+
+<em>
+Tools to help manage form state and form validation.
+
+I find creating forms without two-way data binding cumbersome. Are there libraries to help create and manage forms with React?
+</em>
 
  - [react-jsonschema-form](https://github.com/mozilla-services/react-jsonschema-form) - A React component for building Web forms from JSONSchema.
  - [react-validation-mixin](https://github.com/jurassix/react-validation-mixin) - Simple validation mixin (HoC) for React.
@@ -1799,7 +1817,48 @@ Flux introduced the concept of unidirectional data flow over one or several data
  - [cerebral-module-forms](https://github.com/cerebral/cerebral-module-forms) - A forms handler for Cerebral.
 
 
-### Router
+
+# Redux Form Integration
+
+<em>
+Keep form state in a Redux store.
+
+Are there libraries that helps with storing the form's state in Redux?
+</em>
+
+ - [redux-form](https://github.com/erikras/redux-form) - A Higher Order Component using react-redux to keep form state in a Redux store.
+ - [react-redux-form](https://github.com/davidkpiano/react-redux-form) - Create forms easily in React with Redux.
+
+
+
+# Inputs Set
+
+<em>
+Collections of inputs.
+
+Instead of picking
+</em>
+
+ - [formsy-react-components](https://github.com/twisty/formsy-react-components) - A set of React JS components for use in a formsy-react form. Markup adheres to Bootstrap 3 form structure.
+ - [formsy-material-ui](https://github.com/mbrookes/formsy-material-ui) - A Formsy compatibility wrapper for Material-UI form components.
+ - [react-input-enhancements](https://github.com/alexkuz/react-input-enhancements) - Set of enhancements for input control.
+ - [react-widgets](https://github.com/jquense/react-widgets) - An &agrave; la carte set of polished, extensible, and accessible inputs built for React.
+
+
+
+
+
+
+
+
+
+# Routing
+
+<em>
+Utilities to help set up page navigation.
+
+As React doesn't provide a router, what libraries are there that help implement page navigation?
+</em>
 
  - [react-router](https://github.com/reactjs/react-router) - A complete routing library for React.
  - [react-router-component](https://github.com/STRML/react-router-component) - Declarative router component for React.
@@ -1813,28 +1872,66 @@ Flux introduced the concept of unidirectional data flow over one or several data
  - [cerebral-module-router](https://github.com/cerebral/cerebral-module-router) - An opinionated URL change handler for Cerebral.
 
 
-### Props from server
 
-*Component properties asynchronously fetched over the network*
+
+# Async Route
+
+<em>
+Create asynchronous routes, i.e. routes that need to fetch data over the network.
+
+Most of the pages need to retrieve data from the server before being shown to the user. Are there libraries that help integrate http requests or other types of asynchronous operations into rotues?
+</em>
+
+ - [redial](https://github.com/markdalgleish/redial) - Universal data fetching and route lifecycle management for React etc.
+ - [react-router-relay](https://github.com/relay-tools/react-router-relay) - Relay integration for React Router.
+ - [async-props](https://github.com/ryanflorence/async-props) - Co-located data loading for React Router.
+
+
+
+# Async Component
+
+<em>
+Create asynchronous components, i.e. components that need to fetch data over the network.
+
+I have components that need data from the server. For every such component I have to implement the same logic to manage the cycle "initial render with missing data -> fetch data -> re-render with retrieved data". Are there libraries implementing that logic allowing me to easily create asynchronous components?
+</em>
 
  - [react-async](https://github.com/andreypopp/react-async) - Asynchronously fetch data for React components.
  - [redux-async-connect](https://github.com/Rezonans/redux-async-connect) - It allows you to request async data, store them in redux state and connect them to your react component.
- - [async-props](https://github.com/ryanflorence/async-props) - Co-located data loading for React Router.
- - [react-router-relay](https://github.com/relay-tools/react-router-relay) - Relay integration for React Router.
  - [redux-connect](https://github.com/makeomatic/redux-connect) - Provides decorator for resolving async props in react-router, extremely useful for handling server-side rendering in React.
  - [react-resolver](https://github.com/ericclemmons/react-resolver) - Async rendering &amp; data-fetching for universal React applications.
  - [react-refetch](https://github.com/heroku/react-refetch) - A simple, declarative, and composable way to fetch data for React components.
- - [redial](https://github.com/markdalgleish/redial) - Universal data fetching and route lifecycle management for React etc.
 
 
-### Communication with server
 
- - [adrenaline](https://github.com/gyzerok/adrenaline) - Simple Relay alternative.
- - [react-transmit](https://github.com/RickWong/react-transmit) - Relay-inspired library based on Promises instead of GraphQL.
- - [apollo-client](https://github.com/apollostack/apollo-client) - A simple caching client for any GraphQL server and UI framework.
- - [react-apollo](https://github.com/apollostack/react-apollo) - React data container for the Apollo Client.
+
+
+
+
+
+
+
+
+
+
+
+# GraphQL clients
+
+<em>
+GraphQL clients for React.
+
+There seem to be many alterantives to Relay. What are the libraries that help integrate GraphQL in a React app?
+</em>
+
  - [react-relay](https://github.com/facebook/relay) - Relay is a JavaScript framework for building data-driven React applications.
- - [cerebral-module-http](https://github.com/cerebral/cerebral-module-http) - HTTP module for Cerebral.
+ - [react-apollo](https://github.com/apollostack/react-apollo) - React data container for the Apollo Client.
+ - [adrenaline](https://github.com/gyzerok/adrenaline) - Simple Relay alternative.
+
+
+
+
+
+
 
 
 ### CSS / Style
@@ -2175,5 +2272,12 @@ This is essentially a list of libraries missing a Need (yet).*
  - [react-atv-img](https://github.com/keyanzhang/react-atv-img) - A port of @drewwilson&rsquo;s atvImg (Apple TV 3D parallax effect) library in React.
  - [react-parallax-component](https://github.com/keske/react-parallax-component) - Easiest way to add scroll parallax effect on the component.
  - [react-transitive-number](https://github.com/Lapple/react-transitive-number) - React component to apply transition effect to numeric strings, a la old Groupon timers.
-
-
+ - [react-desktop](https://github.com/gabrielbull/react-desktop) - React UI Components for macOS Sierra and Windows 10.
+ - [aframe-react](https://github.com/ngokevin/aframe-react) - Build virtual reality experiences with A-Frame and React.
+ - [admin-on-rest](https://github.com/marmelab/admin-on-rest) - A frontend framework for building admin SPAs on top of REST services, using React and Material Design.
+ - [react-track](https://github.com/gilbox/react-track) - Track the position of DOM elements. Create cool animations.
+ - [react-height](https://github.com/nkbt/react-height) - Component-wrapper to determine and report children elements height.
+ - [react-height-reporter](https://github.com/berrtech/react-height-reporter) - React component-wrapper detecting height changes of it&#39;s children.
+ - [react-scroll-components](https://github.com/jeroencoumans/react-scroll-components) - A set of components that react to page scrolling.
+ - [react-aim](https://github.com/gabrielbull/react-aim) - Determine the cursor aim for triggering mouse events.
+ - [react-transmit](https://github.com/RickWong/react-transmit) - Relay-inspired library based on Promises instead of GraphQL.
