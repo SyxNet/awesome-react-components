@@ -32,4 +32,5 @@ Unmainted/Deprecated
 # TODO make sure it's removed
 
  - [apollo-client]
+ - [react-datagrid]
 
