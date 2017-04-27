@@ -779,7 +779,6 @@ What are the react date picker libraries out there?</em>
  - [react-day-picker](https://github.com/gpbl/react-day-picker) - Flexible date picker for React.
  - [react-date-range](https://github.com/Adphorus/react-date-range) - A React component for choosing dates and date ranges.
  - [rc-calendar](https://github.com/react-component/calendar) - React Calendar.
- - [react-date-picker](https://github.com/zippyui/react-date-picker) - A carefully crafted date picker for React.
  - [react-datetime](https://github.com/YouCanBookMe/react-datetime) - A lightweight but complete datetime picker react component.
  - [react-yearly-calendar](https://github.com/BelkaLab/react-yearly-calendar) - React.js Yearly Calendar Component.
  - [react-daterange-picker](https://github.com/onefinestay/react-daterange-picker) - A React based date range picker.
@@ -813,7 +812,6 @@ What are the libraries implementing that use case?</em>
  - [react-day-picker](https://github.com/gpbl/react-day-picker) - Flexible date picker for React.
  - [react-date-range](https://github.com/Adphorus/react-date-range) - A React component for choosing dates and date ranges.
  - [rc-calendar](https://github.com/react-component/calendar) - React Calendar.
- - [react-date-picker](https://github.com/zippyui/react-date-picker) - A carefully crafted date picker for React.
  - [react-yearly-calendar](https://github.com/BelkaLab/react-yearly-calendar) - React.js Yearly Calendar Component.
  - [react-daterange-picker](https://github.com/onefinestay/react-daterange-picker) - A React based date range picker.
  - [react-bootstrap-daterangepicker](https://github.com/skratchdot/react-bootstrap-daterangepicker) - A date/time picker for react (using bootstrap). This is a react port of bootstrap-daterangepicker.
@@ -864,7 +862,6 @@ What is the list of high-quality libraries that cover that use case?</em>
 
  - [react-flatpickr](https://github.com/coderhaoxin/react-flatpickr) - Flatpickr for React.
  - [rc-calendar](https://github.com/react-component/calendar) - React Calendar.
- - [react-date-picker](https://github.com/zippyui/react-date-picker) - A carefully crafted date picker for React.
  - [react-datetime](https://github.com/YouCanBookMe/react-datetime) - A lightweight but complete datetime picker react component.
  - [react-bootstrap-datetimepicker](https://github.com/quri/react-bootstrap-datetimepicker) - A react.js datetime picker for bootstrap.
  - [input-moment](https://github.com/wangzuo/input-moment) - React datetime picker powered by momentjs.

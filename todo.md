@@ -33,4 +33,4 @@ Unmainted/Deprecated
 
  - [apollo-client]
  - [react-datagrid]
-
+ - [react-date-picker](https://github.com/zippyui/react-date-picker) - A carefully crafted date picker for React.
