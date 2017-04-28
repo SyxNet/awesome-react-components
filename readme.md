@@ -1413,6 +1413,7 @@ What utilities are there to help me implement responsive layout?
  - [react-flexbox](https://github.com/tcoopman/react-flexbox) - React flexbox implementation.
  - [reflexbox](https://github.com/jxnblk/reflexbox) - React flexbox layout and grid system.
  - [hedron](https://github.com/JSBros/hedron#example-usage) - A no-frills flexbox grid system for React, powered by styled-components.
+ - [react-responsive](https://github.com/contra/react-responsive) - Media queries in react for responsive design.
 
 
 
@@ -1633,15 +1634,16 @@ I have many elements that are not within the viewport and hence not visible to t
 # Size Reporter
 
 <em>
-Report initial value and change of width/height to allow responsive components.
+Report width/height to allow responsive components.
 
-I basically want "reponsive design on the component level"; I want my component to be aware of its width and height for it to be able to render differently depending on how much width/height is available.
+I basically want "reponsive design on the component level"; I want my component to be aware of its width and height for it to be able to render differently depending on how much width/height is available to it.
 </em>
 
  - [react-measure](https://github.com/souporserious/react-measure) - Compute measurements of a React component.
  - [react-dimensions](https://github.com/digidem/react-dimensions) - React higher-order component to get dimensions of container.
  - [react-component-queries](https://github.com/ctrlplusb/react-component-queries) - Provide props to your Components based on their Width and/or Height.
  - [react-sizeme](https://github.com/ctrlplusb/react-sizeme) - Make your React Components aware of their width and height.
+ - [react-container-query](https://github.com/d6u/react-container-query) - Modular responsive component.
 
 
 
@@ -1930,21 +1932,56 @@ There seem to be many alterantives to Relay. What are the libraries that help in
 
 
 
-### CSS / Style
+# Inline CSS
 
- - [react-responsive](https://github.com/contra/react-responsive) - Media queries in react for responsive design.
- - [react-css-modules](https://github.com/gajus/react-css-modules) - Seamless mapping of class names to CSS modules inside of React components.
+<em>
+Extend inline styles to support more CSS features.
+
+Inline styles are very convenient (using JavaScript to generate styles, no global css classes pollution) but one thing I'm missing is CSS selectors like `.parent > .child` or more interesstingly `.child + .child {margin-top: 10px}`, `.child:not(:hover) {opacity: 0.2}`, or media queries. These aren't easily possible with React inline styles.
+
+Are there libraries that allow me to write such CSS within my React components?
+</em>
+
+ - [styled-components](https://github.com/styled-components/styled-components) - Visual primitives for the component age.
+ - [radium](https://github.com/FormidableLabs/radium) - A set of tools to manage inline styles on React elements.
  - [aphrodite](https://github.com/Khan/aphrodite) - It&#39;s inline styles, but they work!.
  - [postcss-js](https://github.com/postcss/postcss-js) - PostCSS for React Inline Styles, Free Style and other CSS-in-JS.
- - [react-inline-css](https://github.com/RickWong/react-inline-css) - Write CSS inside your React components!.
- - [classnames](https://github.com/JedWatson/classnames) - A simple javascript utility for conditionally joining classNames together.
- - [react-container-query](https://github.com/d6u/react-container-query) - Modular responsive component.
- - [react-look](https://github.com/rofrischmann/react-look) - Advanced &amp; Dynamic Component Styling for React and React Native. Ships with powerful Plugins, Mixins and Developer Tools.
  - [stilr](https://github.com/kodyl/stilr) - Encapsulated styling for your javascript components with all the power of javascript and CSS combined.
- - [react-css-components](https://github.com/andreypopp/react-css-components) - Define React presentational components with CSS.
- - [inline-style-prefixer](https://github.com/rofrischmann/inline-style-prefixer) - Run-time Autoprefixer for Inline Style Objects.
- - [radium](https://github.com/FormidableLabs/radium) - A set of tools to manage inline styles on React elements.
- - [styled-components](https://github.com/styled-components/styled-components) - Visual primitives for the component age.
+ - [react-inline-css](https://github.com/RickWong/react-inline-css) - Write CSS inside your React components!.
+ - [react-look](https://github.com/rofrischmann/react-look) - Advanced &amp; Dynamic Component Styling for React and React Native. Ships with powerful Plugins, Mixins and Developer Tools.
+
+
+
+
+
+
+# Local CSS class
+
+<em>
+Locally scoped CSS classes.
+
+Styles are often only applied to one part of the application. In that case having CSS classes be globally scoped is inconvenient.
+
+Even though they allow styles to be scoped locally, I'm not interested in inline style libraries; I want to be able to define styles with CSS3 in .css files with preprocessors of my choice. (E.g. it ain't trivial to use SASS or PostCSS with inline styles.) I just want these classes to be local!
+</em>
+
+ - [react-css-modules](https://github.com/gajus/react-css-modules) - Seamless mapping of class names to CSS modules inside of React components.
+ - [babel-plugin-react-css-modules](https://github.com/gajus/babel-plugin-react-css-modules) - Transforms styleName to className using compile time CSS module resolution.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### HTML Template
@@ -2277,3 +2314,6 @@ This is essentially a list of libraries missing a Need (yet).*
  - [react-scroll-components](https://github.com/jeroencoumans/react-scroll-components) - A set of components that react to page scrolling.
  - [react-aim](https://github.com/gabrielbull/react-aim) - Determine the cursor aim for triggering mouse events.
  - [react-transmit](https://github.com/RickWong/react-transmit) - Relay-inspired library based on Promises instead of GraphQL.
+ - [inline-style-prefixer](https://github.com/rofrischmann/inline-style-prefixer) - Run-time Autoprefixer for Inline Style Objects.
+ - [classnames](https://github.com/JedWatson/classnames) - A simple javascript utility for conditionally joining classNames together.
+ - [react-css-components](https://github.com/andreypopp/react-css-components) - Define React presentational components with CSS.
