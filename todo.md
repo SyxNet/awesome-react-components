@@ -34,3 +34,5 @@ Unmainted/Deprecated
  - [apollo-client]
  - [react-datagrid]
  - [react-date-picker](https://github.com/zippyui/react-date-picker) - A carefully crafted date picker for React.
+ - [webpack-isomorphic-tools](https://github.com/halt-hammerzeit/webpack-isomorphic-tools) - Server-side rendering for your Webpack-built applications (e.g. React).
+ - [isomorphic-style-loader](https://github.com/kriasoft/isomorphic-style-loader) - Isomorphic CSS style loader for Webpack.

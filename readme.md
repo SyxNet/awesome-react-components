@@ -1414,6 +1414,7 @@ What utilities are there to help me implement responsive layout?
  - [reflexbox](https://github.com/jxnblk/reflexbox) - React flexbox layout and grid system.
  - [hedron](https://github.com/JSBros/hedron#example-usage) - A no-frills flexbox grid system for React, powered by styled-components.
  - [react-responsive](https://github.com/contra/react-responsive) - Media queries in react for responsive design.
+ - [react-media](https://github.com/ReactTraining/react-media) A CSS media query component for React.
 
 
 
@@ -1937,7 +1938,7 @@ There seem to be many alterantives to Relay. What are the libraries that help in
 <em>
 Extend inline styles to support more CSS features.
 
-Inline styles are very convenient (using JavaScript to generate styles, no global css classes pollution) but one thing I'm missing is CSS selectors like `.parent > .child` or more interesstingly `.child + .child {margin-top: 10px}`, `.child:not(:hover) {opacity: 0.2}`, or media queries. These aren't easily possible with React inline styles.
+Inline styles are very convenient (using JavaScript to generate styles, no global css classes pollution) but one thing I'm missing is CSS selectors like `.parent > .child` or more interesstingly `.child + .child {margin-top: 10px}`, `.child:not(:hover) {opacity: 0.2}`, media queries, etc. These aren't easily possible with React inline styles.
 
 Are there libraries that allow me to write such CSS within my React components?
 </em>
@@ -1980,30 +1981,46 @@ Even though they allow styles to be scoped locally, I'm not interested in inline
 
 
 
+# HTML Template
 
+<em>
+JSX alternatives or add-ons.
 
+Creating elements in React Components with only `React.createElement()` is messy and not very practical. Other than JSX, what are libraries that ease creating elements?
+</em>
 
-
-### HTML Template
-
- - [jsx-control-statements](https://github.com/AlexGilleran/jsx-control-statements) - Neater If and For for React JSX.
  - [react-templates](https://github.com/wix/react-templates) - Light weight templates for react.
  - [hyperx](https://github.com/substack/hyperx) - Tagged template string virtual dom builder.
+ - [jsx-control-statements](https://github.com/AlexGilleran/jsx-control-statements) - Neater If and For for React JSX.
 
 
-### Isomorphic Apps
+
+
+
+# Isomorphic React Utilities
+
+<em>
+Uitilities to help set up react apps that render on both the server and the client.
+
+That React can render on the server is a powerful feature. Are there libraries that help me build a React app that renders React views to HTML on the server and as well to DOM nodes/mutations on the client? Allowing to combine both words of having fast static HTML markup and dynamic & flexible views on the client.
+</em>
 
  - [hypernova](https://github.com/airbnb/hypernova) - A service for server-side rendering your JavaScript views.
  - [react-server](https://github.com/redfin/react-server) - React framework with server render for blazing fast page load and seamless transitions between pages in the browser.
- - [webpack-isomorphic-tools](https://github.com/halt-hammerzeit/webpack-isomorphic-tools) - Server-side rendering for your Webpack-built applications (e.g. React).
  - [isomorphic-relay](https://github.com/denvned/isomorphic-relay) - Adds server side rendering support to React Relay.
  - [rill](https://github.com/rill-js/rill) - Universal web application framework.
- - [isomorphic-style-loader](https://github.com/kriasoft/isomorphic-style-loader) - Isomorphic CSS style loader for Webpack.
 
 
-### Boilerplate
 
-*Scaffold / starter kit / Yeoman generator / stack ensemble / seed*
+
+
+# Boilerplate
+
+<em>
+Scaffold / starter kit / Yeoman generator / stack ensemble / seed.
+
+What are the libraries out there for setting up a React app?
+</em>
 
  - [create-react-app](https://github.com/facebookincubator/create-react-app) Create React apps with no build configuration.
  - [redux-cli](https://github.com/SpencerCDixon/redux-cli) - An opinionated CLI for building redux/react apps quicker.
@@ -2036,12 +2053,12 @@ Even though they allow styles to be scoped locally, I'm not interested in inline
 
 
 
+
 ## Utilities
 
  - [react-faux-dom](https://github.com/Olical/react-faux-dom) - DOM like structure that renders to React.
  - [react-translate-component](https://github.com/martinandert/react-translate-component) - A component for React that utilizes the Counterpart module to provide multi-lingual/localized text content.
  - [qrcode.react](https://github.com/zpao/qrcode.react) - A &lt;QRCode/&gt; component for use with React.
- - [react-media](https://github.com/ReactTraining/react-media) A CSS media query component for React.
  - [react-children-utilities](https://github.com/fernandopasik/react-children-utilities) - Extended utils for React.Children.
 
 
