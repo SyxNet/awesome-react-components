@@ -36,3 +36,5 @@ Unmainted/Deprecated
  - [react-date-picker](https://github.com/zippyui/react-date-picker) - A carefully crafted date picker for React.
  - [webpack-isomorphic-tools](https://github.com/halt-hammerzeit/webpack-isomorphic-tools) - Server-side rendering for your Webpack-built applications (e.g. React).
  - [isomorphic-style-loader](https://github.com/kriasoft/isomorphic-style-loader) - Isomorphic CSS style loader for Webpack.
+ - [gl-react](https://github.com/ProjectSeptemberInc/gl-react) - OpenGL / WebGL bindings for React to implement complex effects over images and content, in the descriptive VDOM paradigm.
+ - [gl-react-dom](https://github.com/ProjectSeptemberInc/gl-react-dom) - WebGL bindings for React to implement complex effects over images and content, in the descriptive VDOM paradigm.

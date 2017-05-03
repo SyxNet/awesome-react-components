@@ -53,7 +53,7 @@ If there are several libraries implementing the same creative idea, then please 
 
 <em>Libraies with audacious goals.
 
-I'm curious about libraries what aim a (little) revolution."</em>
+I'm curious about libraries that aim big."</em>
 
  - [react-canvas](https://github.com/Flipboard/react-canvas) - High performance &lt;canvas&gt; rendering for React components.
 
@@ -2089,6 +2089,7 @@ Our users speak different languages and our app's text should accordingly be sho
 
 
 
+
 # D3 Integration
 
 <em>
@@ -2107,29 +2108,67 @@ What are the different approaches and libraries to integrate existing D3 code in
 
 
 
-### Framework bindings / integrations
 
- - [reactfire](https://github.com/firebase/reactfire) - ReactJS mixin for easy Firebase integration.
- - [react-famous](https://github.com/pilwon/react-famous) - React bridge to Famo.us.
- - [backbone-react-component](https://github.com/magalhas/backbone-react-component) - A bit of nifty glue that automatically plugs your Backbone models and collections into your React components, on the browser and server.
+
+
+
+# Elm Integration
+
+<em>
+Integrate Elm code in a React app.
+
+I'm looking to use a component written in Elm within my React app.
+</em>
+
  - [elm-react-component](https://github.com/KtorZ/elm-react-component) - A React component which wraps an Elm module to be used in a React application.
- - [react-three-renderer](https://github.com/toxicFork/react-three-renderer) - Render into a three.js canvas using React.
- - [gl-react](https://github.com/ProjectSeptemberInc/gl-react) - OpenGL / WebGL bindings for React to implement complex effects over images and content, in the descriptive VDOM paradigm.
- - [gl-react-dom](https://github.com/ProjectSeptemberInc/gl-react-dom) - WebGL bindings for React to implement complex effects over images and content, in the descriptive VDOM paradigm.
- - [react-on-rails](https://github.com/shakacode/react_on_rails) - Integration of React + Webpack + Rails to build Universal (Isomorphic) Apps.
- - [react-backbone](https://github.com/jhudson8/react-backbone) - Backbone-aware mixins for react and a whole lot more.
- - [react-swf](https://github.com/syranide/react-swf) - Shockwave Flash Player component for React.
- - [react-localstorage](https://github.com/STRML/react-localstorage) - Simple componentized localstorage implementation for Facebook&#39;s React.
- - [reactive-elements](https://github.com/PixelsCommander/ReactiveElements) - Allows to use React.js component as HTML element (web component).
  - [react-elm-components](https://github.com/evancz/react-elm-components) - Write React components in Elm.
 
 
-### Integrations with Third Party Services
 
- - [react-stripe-checkout](https://github.com/azmenak/react-stripe-checkout) - Load stripe&#39;s checkout.js as a react component. Easiest way to use checkout with React.
+
+
+
+
+
+# Backbone Integration
+
+<em>
+Render Backbone Models with React.
+
+I want to use Backbone Models to represent data and I want React to do the rendering.
+
+Are there libararies to help me integrate Backbone like this?
+</em>
+
+ - [backbone-react-component](https://github.com/magalhas/backbone-react-component) - A bit of nifty glue that automatically plugs your Backbone models and collections into your React components, on the browser and server.
+ - [react-backbone](https://github.com/jhudson8/react-backbone) - Backbone-aware mixins for react and a whole lot more.
+
+
+
+
+
+
+
+
+# Google Analytics Integration
+
+<em>
+Add Google Analytics tracking.
+
+I want to track users with Google Analytics, what libraries are there to help me add Google Analytics tracking?
+</em>
+
+ - [react-ga](https://github.com/react-ga/react-ga) - React Google Analytics Module.
  - [react-google-analytics](https://github.com/hzdg/react-google-analytics) - Google analytics component.
- - [react-recaptcha](https://github.com/appleboy/react-recaptcha) - A react.js reCAPTCHA for Google.
- - [redux-segment](https://github.com/rangle/redux-segment) - Segment.io analytics integration for redux.
+ - [react-i13n](https://github.com/yahoo/react-i13n) - A performant, scalable and pluggable approach to instrumenting your React application.
+
+
+
+
+
+
+
+
 
 
 
@@ -2201,6 +2240,7 @@ Any library implementing a performance boost is welcome.</em>
  - [react-static-container](https://github.com/reactjs/react-static-container) - Renders static content efficiently by allowing React to short-circuit the reconciliation process.
  - [react-canvas](https://github.com/Flipboard/react-canvas) - High performance &lt;canvas&gt; rendering for React components.
  - [inferno](https://github.com/trueadm/inferno) - An extremely fast, React-like JavaScript library for building modern user interfaces.
+ - [react-worker-dom](https://github.com/web-perf/react-worker-dom) - Experiments to see the advantages of using Web Workers to Render React Virtual DOM.
 
 
 
@@ -2258,8 +2298,6 @@ Are there libraries that help reduce the overall size of my application?
 
 
 
-## Dev Tools
-
 # User Tracking Utilities
 
 <em>
@@ -2276,31 +2314,26 @@ I'm not interested in libraries that only help setup vendor code snippets. Rathe
 
 
 
-### Test
 
- - [ui-harness](https://github.com/philcockfield/ui-harness) - Create, isolate and test modular UI components in React.
- - [redux-test-recorder](https://github.com/conorhastings/redux-test-recorder) - A redux middleware to automatically generate tests for reducers through ui interaction.
- - [legit-tests](https://github.com/Legitcode/tests) - Chainable, easy to read, React testing library.
- - [unexpected-react](https://github.com/bruderstein/unexpected-react) - Plugin for [unexpected]( to enable testing the full React virtual DOM, and also the shallow renderer.
- - [chai-enzyme](https://github.com/producthunt/chai-enzyme) - Chai.js assertions and convenience functions for testing React Components with enzyme.
- - [react-unit](https://github.com/pzavolinsky/react-unit) - Lightweight unit test library for ReactJS.
+
+
+
+
+# Test Utilities
+
+<em>
+Utilities to test React components & apps.
+
+I'm writing tests for my React app and I'm wondering what libraries there are to help write tests for React apps?
+</em>
+
  - [enzyme](https://github.com/airbnb/enzyme) - JavaScript Testing utilities for React.
- - [redux-ava](https://github.com/sotojuan/redux-ava) - Write AVA tests for redux pretty quickly.
  - [carte-blanche](https://github.com/carteb/carte-blanche) - An isolated development space with integrated fuzz testing for your components. See them individually, explore them in different states and quickly and confidently develop them.
-
-
-
-
-
-### Redux
-
- - [redux-devtools-inspector](https://github.com/alexkuz/redux-devtools-inspector) - Another Redux DevTools Monitor.
- - [redux-devtools-chart-monitor](https://github.com/romseguy/redux-devtools-chart-monitor) - A chart monitor for Redux DevTools.
- - [redux-devtools-dock-monitor](https://github.com/gaearon/redux-devtools-dock-monitor) - A resizable and movable dock for Redux DevTools monitors.
- - [redux-devtools-filterable-log-monitor](https://github.com/bvaughn/redux-devtools-filterable-log-monitor) - Filterable tree view monitor for Redux DevTools.
- - [redux-devtools-log-monitor](https://github.com/gaearon/redux-devtools-log-monitor) - The default monitor for Redux DevTools with a tree view.
- - [remote-redux-devtools](https://github.com/zalmoxisus/remote-redux-devtools) - Redux DevTools remotely.
- - [redux-devtools](https://github.com/gaearon/redux-devtools) - DevTools for Redux with hot reloading, action replay, and customizable UI.
+ - [chai-enzyme](https://github.com/producthunt/chai-enzyme) - Chai.js assertions and convenience functions for testing React Components with enzyme.
+ - [legit-tests](https://github.com/Legitcode/tests) - Chainable, easy to read, React testing library.
+ - [unexpected-react](https://github.com/bruderstein/unexpected-react) - Plugin for unexpected.js to enable testing the full React virtual DOM, and also the shallow renderer.
+ - [react-unit](https://github.com/pzavolinsky/react-unit) - Lightweight unit test library for ReactJS.
+ - [ui-harness](https://github.com/philcockfield/ui-harness) - Create, isolate and test modular UI components in React.
 
 
 
@@ -2314,8 +2347,11 @@ I'm not interested in libraries that only help setup vendor code snippets. Rathe
 
 # Static Website Generator
 
+<em>
+</em>
+
  - [gatsby](https://github.com/gatsbyjs/gatsby) - Transform plain text into dynamic blogs and websites using React.js.
- - [phenomic](https://github.com/MoOx/phenomic) - Modern static* website generator based on the React and Webpack ecosystem.
+ - [phenomic](https://github.com/MoOx/phenomic) - Modern static website generator based on the React and Webpack ecosystem.
  - [sitegen](https://github.com/andreypopp/sitegen) - Generate websites by composing React components.
 
 
@@ -2390,3 +2426,14 @@ This is essentially a list of libraries missing a Need (yet).*
  - [react-inspector](https://github.com/xyc/react-inspector) - Power of Browser DevTools inspectors right inside your React app.
  - [react-json-inspector](https://github.com/Lapple/react-json-inspector) - React JSON inspector component.
  - [react-children-utilities](https://github.com/fernandopasik/react-children-utilities) - Extended utils for React.Children.
+ - [gl-react](https://github.com/gre/gl-react) - A React library to write and compose WebGL shaders.
+ - [reactfire](https://github.com/firebase/reactfire) - ReactJS mixin for easy Firebase integration.
+ - [react-famous](https://github.com/pilwon/react-famous) - React bridge to Famo.us.
+ - [react-three-renderer](https://github.com/toxicFork/react-three-renderer) - Render into a three.js canvas using React.
+ - [react-on-rails](https://github.com/shakacode/react_on_rails) - Integration of React + Webpack + Rails to build Universal (Isomorphic) Apps.
+ - [react-swf](https://github.com/syranide/react-swf) - Shockwave Flash Player component for React.
+ - [react-localstorage](https://github.com/STRML/react-localstorage) - Simple componentized localstorage implementation for Facebook&#39;s React.
+ - [reactive-elements](https://github.com/PixelsCommander/ReactiveElements) - Allows to use React.js component as HTML element (web component).
+ - [react-stripe-checkout](https://github.com/azmenak/react-stripe-checkout) - Load stripe&#39;s checkout.js as a react component. Easiest way to use checkout with React.
+ - [react-recaptcha](https://github.com/appleboy/react-recaptcha) - A react.js reCAPTCHA for Google.
+ - [redux-segment](https://github.com/rangle/redux-segment) - Segment.io analytics integration for redux.
