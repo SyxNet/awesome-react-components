@@ -32,6 +32,7 @@ If there are several libraries implementing the same creative idea, then please 
  - [react-canvas](https://github.com/Flipboard/react-canvas) - High performance &lt;canvas&gt; rendering for React components.
  - [react-icons](https://github.com/gorangajic/react-icons) - Svg react icons of popular icon packs using ES6 imports.
  - [react-render-visualizer](https://github.com/redsunsoft/react-render-visualizer) - Render visualizer for ReactJS.
+ - [react-faux-dom](https://github.com/Olical/react-faux-dom) - DOM like structure that renders to React.
 
 
 
@@ -110,7 +111,7 @@ I have a large list of several thousands of entries that I want to show to the u
 
 I want to dispaly the entire list without pagination. But rendering all thousands of entries is performance-wise unpractical.
 
-Instead of rendering all entries at once, the entries should be rendered only when they become visible as the user scrolls up and down the list. This technique is called "virtualization".
+Instead of rendering all entries at once, the entries should be rendered only when they become visible as the user scrolls up and down the list. This technique is called "virtualization" or "lazy load".
 
 What React libraries are there to achieve that?
 </em>
@@ -463,7 +464,8 @@ Bring up the libraries.</em>
  - [victory](https://github.com/FormidableLabs/victory) - Data viz for React.
  - [react-sigmajs](https://github.com/dunnock/react-sigma) - Lightweight but powerful library for drawing network graphs built on top of SigmaJS.
  - [chartify](https://github.com/kirillstepkin/chartify) - React.js plugin for building animated draggable and customizable charts.
-
+ - [rd3](https://github.com/yang-wei/rd3) - Modular ReactJS charts made using d3 chart utilities.
+ - [react-d3](https://github.com/esbullington/react-d3) - Modular React charts made with d3.js.
 
 
 
@@ -1424,20 +1426,21 @@ What utilities are there to help me implement responsive layout?
 
 
 
-# Column Stacks Layout
+# Masonry Layout
 
 <em>
-Pinterest-like layout of stacking elements into columns.
+Pinterest-like layout of stacking elements bellow each other into columns.
 
-I really like pinterest's approach of showing elements of different heights by stacking them on each other into columns. Ideallly the number of columns should be responsive to the website's width.
+I really like pinterest's approach of showing elements of different heights by stacking them on each other into columns. Ideallly the number of columns should be responsive to the website's width. Such column stack layout is called masonry layout.
 
-I'm looking for libraries that implement such column stacks layout.
+I'm looking for libraries that allow me display components with masonry layout.
 </em>
 
  - [react-stack-grid](https://github.com/tsuyoshiwada/react-stack-grid) - Pinterest like layout components for React.js.
  - [autoresponsive-react](https://github.com/xudafeng/autoresponsive-react) - Auto responsive grid layout library.
  - [react-stonecutter](https://github.com/dantrain/react-stonecutter) - Animated grid layout component for React.
  - [react-masonry-component](https://github.com/eiriklv/react-masonry-component) - A React.js component for using @desandro&#39;s Masonry.
+ - [react-virtualized](https://github.com/bvaughn/react-virtualized) - React components for efficiently rendering large lists and tabular data.
 
 
 
@@ -2051,12 +2054,8 @@ What are the libraries out there for setting up a React app?
 
 
 
-
-
-
 ## Utilities
 
- - [react-faux-dom](https://github.com/Olical/react-faux-dom) - DOM like structure that renders to React.
  - [react-translate-component](https://github.com/martinandert/react-translate-component) - A component for React that utilizes the Counterpart module to provide multi-lingual/localized text content.
  - [qrcode.react](https://github.com/zpao/qrcode.react) - A &lt;QRCode/&gt; component for use with React.
  - [react-children-utilities](https://github.com/fernandopasik/react-children-utilities) - Extended utils for React.Children.
@@ -2070,6 +2069,27 @@ What are the libraries out there for setting up a React app?
  - [react-i18next](https://github.com/i18next/react-i18next) - Internationalization for react done right. Using the i18next i18n ecosystem.
 
 
+
+
+
+# D3 Integration
+
+<em>
+Ways to integrate D3 code in a React app.
+
+Both D3 and React manipulate the DOM and there don't seem to be a canonical way to integrate D3.
+
+What are the different approaches and libraries to integrate existing D3 code in a React app?
+</em>
+
+ - [react-d3-library](https://github.com/react-d3-library/react-d3-library) - Open source library for using D3 in React.
+ - [d3act](https://github.com/AnSavvides/d3act) - D3 with React.
+ - [react-faux-dom](https://github.com/Olical/react-faux-dom) - DOM like structure that renders to React.
+
+
+
+
+
 ### Framework bindings / integrations
 
  - [reactfire](https://github.com/firebase/reactfire) - ReactJS mixin for easy Firebase integration.
@@ -2078,7 +2098,6 @@ What are the libraries out there for setting up a React app?
  - [elm-react-component](https://github.com/KtorZ/elm-react-component) - A React component which wraps an Elm module to be used in a React application.
  - [react-three-renderer](https://github.com/toxicFork/react-three-renderer) - Render into a three.js canvas using React.
  - [gl-react](https://github.com/ProjectSeptemberInc/gl-react) - OpenGL / WebGL bindings for React to implement complex effects over images and content, in the descriptive VDOM paradigm.
- - [react-d3-library](https://github.com/react-d3-library/react-d3-library) - Open source library for using D3 in React.
  - [gl-react-dom](https://github.com/ProjectSeptemberInc/gl-react-dom) - WebGL bindings for React to implement complex effects over images and content, in the descriptive VDOM paradigm.
  - [react-on-rails](https://github.com/shakacode/react_on_rails) - Integration of React + Webpack + Rails to build Universal (Isomorphic) Apps.
  - [react-backbone](https://github.com/jhudson8/react-backbone) - Backbone-aware mixins for react and a whole lot more.
@@ -2106,22 +2125,17 @@ What are the libraries out there for setting up a React app?
 
 
 
-# Inspect
+# Inspect State
 
-*Inspect app to understand what's going on.
+<em>
+Tools to inspect the app's state.
 
-Looking for libraries that help me understand what's going on in my application.
+I'm looking for libraries that help me understand what's going on in my application.
 
-Mostly to help debug and/or analyze performance. (And maybe other use cases I can't think of right now.)
+What libraries are there out there to inspect the state of my React app?
+</em>
 
-What react inspection libraries are there out there?*
-
- - [react-inspector](https://github.com/xyc/react-inspector) - Power of Browser DevTools inspectors right inside your React app.
- - [react-json-inspector](https://github.com/Lapple/react-json-inspector) - React JSON inspector component.
  - [reactotron](https://github.com/reactotron/reactotron) - A CLI and OS X app for inspecting your React JS and React Native apps.
- - [why-did-you-update](https://github.com/garbles/why-did-you-update) - Puts your console on blast when React is making unnecessary updates.
- - [react-perf-tool](https://github.com/RamonGebben/react-perf-tool) - Debug performance of your React application.
- - [react-render-visualizer](https://github.com/redsunsoft/react-render-visualizer) - Render visualizer for ReactJS.
 
 
 
@@ -2140,11 +2154,11 @@ What react inspection libraries are there out there?*
 
 # Inspect Performance
 
-*Understand (slow) performance.
+<em>Understand (slow) performance.
 
 I want to make my app snappier and I'm search for libraries that help me understand what's going on in my application from a performance perspective.
 
-Any libraries to help me increase the performance of my app?*
+Any libraries to help me increase the performance of my app?</em>
 
  - [why-did-you-update](https://github.com/garbles/why-did-you-update) - Puts your console on blast when React is making unnecessary updates.
  - [react-perf-tool](https://github.com/RamonGebben/react-perf-tool) - Debug performance of your React application.
@@ -2160,11 +2174,11 @@ Any libraries to help me increase the performance of my app?*
 
 # Performance
 
-*Libraries to make UI blazing fast.
+<em>Libraries to make the UI render faster.
 
-I want maxizimze the performance of my app.
+I want to improve the performance of my app.
 
-Any library implementing a performance boost is welcome.*
+Any library implementing a performance boost is welcome.</em>
 
  - [react-fastclick](https://github.com/JakeSidSmith/react-fastclick) - Fast Touch Events for React.
  - [react-static-container](https://github.com/reactjs/react-static-container) - Renders static content efficiently by allowing React to short-circuit the reconciliation process.
@@ -2184,19 +2198,41 @@ Any library implementing a performance boost is welcome.*
 
 
 
-#### Lazy Load
+# Lazy Load Component
+
+<em>
+Lazy load arbitrary components.
+
+Some components are expensive to render and we want to render them only when they are visible to the user. This technique is also called virtualization.
+
+Most virtualization libraries assume that the components to be lazy loaded are entries of a list and it is assumed that they are are all siblings and children of one same parent component.
+It is not the case in our application and the expensive components to be lazy loaded are scattered around the app.
+
+Are there libraries that allow to lazy load components at arbitrary position? Ideally the library would pass a prop `isVisible` to the expensive components so they can render a cheap-to-render placeholder when `isVisible===false`.
+</em>
 
  - [react-lazyload](https://github.com/jasonslyvia/react-lazyload) - Lazyload your Component, Image or anything matters the performance.
- - [react-infinity](https://github.com/nmn/react-infinity) - A UITableView Inspired list and grid display solution with element culling and smooth animations.
- - [react-infinite](https://github.com/seatgeek/react-infinite) - A browser-ready efficient scrolling container based on UITableView.
- - [react-infinite-grid](https://github.com/ggordan/react-infinite-grid) - A React component which renders a grid of elements.
- - [react-virtualized](https://github.com/bvaughn/react-virtualized) - React components for efficiently rendering large lists and tabular data.
  - [react-lazy-load](https://github.com/loktar00/react-lazy-load) - React component that renders children elements when they enter the viewport.
 
-### App Size
+
+
+
+
+
+
+
+
+# App Size Reduction
+
+<em>
+Libraries to reduce KB size of a React app.
+
+Are there libraries that help reduce the overall size of my application?
+</em>
 
  - [babel-plugin-transform-react-remove-prop-types](https://github.com/oliviertassinari/babel-plugin-transform-react-remove-prop-types) - Remove unnecessary React propTypes from the production build.
  - [react-lite](https://github.com/Lucifier129/react-lite) - An implementation of React that optimizes for small script size.
+
 
 
 
@@ -2334,3 +2370,5 @@ This is essentially a list of libraries missing a Need (yet).*
  - [inline-style-prefixer](https://github.com/rofrischmann/inline-style-prefixer) - Run-time Autoprefixer for Inline Style Objects.
  - [classnames](https://github.com/JedWatson/classnames) - A simple javascript utility for conditionally joining classNames together.
  - [react-css-components](https://github.com/andreypopp/react-css-components) - Define React presentational components with CSS.
+ - [react-inspector](https://github.com/xyc/react-inspector) - Power of Browser DevTools inspectors right inside your React app.
+ - [react-json-inspector](https://github.com/Lapple/react-json-inspector) - React JSON inspector component.
