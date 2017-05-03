@@ -23,11 +23,13 @@
 
 # Creative Stuff
 
-<em>Libraries with a "oh wow that's a neat idea" effect.
+<em>
+Libraries with a "oh wow that's a neat idea" effect.
 
 I'm curious about new types of libraries. Especially because React allows a whole new range of libraries that previously were very difficult to implement.
 
-If there are several libraries implementing the same creative idea, then please add the oldest one.</em>
+If there are several libraries implementing the same creative idea, then please add the oldest one.
+</em>
 
  - [react-canvas](https://github.com/Flipboard/react-canvas) - High performance &lt;canvas&gt; rendering for React components.
  - [react-icons](https://github.com/gorangajic/react-icons) - Svg react icons of popular icon packs using ES6 imports.
@@ -706,9 +708,11 @@ I'm not interessted in image manipulation libraries but only in libraries helpin
 
 # Icons
 
-<em>Emoji related libraries.
+<em>
+Emoji related libraries.
 
-I love emojis and I want to get to know all cool icon related libraries for React apps!</em>
+I love emojis and I want to get to know all cool icon related libraries for React apps!
+</em>
 
  - [react-icons](https://github.com/gorangajic/react-icons) - Svg react icons of popular icon packs using ES6 imports.
  - [react-emoji](https://github.com/banyan/react-emoji) - An emoji mixin for React.
@@ -717,7 +721,15 @@ I love emojis and I want to get to know all cool icon related libraries for Reac
 
 
 
+# QR Code
 
+<em>
+Generate QR codes.
+
+I'm looking for a React component to generate QR codes.
+</em>
+
+ - [qrcode.react](https://github.com/zpao/qrcode.react) - A &lt;QRCode/&gt; component for use with React.
 
 
 
@@ -727,9 +739,11 @@ I love emojis and I want to get to know all cool icon related libraries for Reac
 
 # Paginator
 
-<em>Display a control element to paginate.
+<em>
+Display a control element to paginate.
 
-I'm looking for a small component allowing the user to select what page should be shown.</em>
+I'm looking for a small component allowing the user to select what page should be shown.
+</em>
 
  - [react-paginate](https://github.com/AdeleD/react-paginate) - A ReactJS component that creates a pagination.
 
@@ -2022,7 +2036,7 @@ That React can render on the server is a powerful feature. Are there libraries t
 <em>
 Scaffold / starter kit / Yeoman generator / stack ensemble / seed.
 
-What are the libraries out there for setting up a React app?
+What are the libraries out there that help set up a new React app?
 </em>
 
  - [create-react-app](https://github.com/facebookincubator/create-react-app) Create React apps with no build configuration.
@@ -2054,19 +2068,22 @@ What are the libraries out there for setting up a React app?
 
 
 
-## Utilities
-
- - [react-translate-component](https://github.com/martinandert/react-translate-component) - A component for React that utilizes the Counterpart module to provide multi-lingual/localized text content.
- - [qrcode.react](https://github.com/zpao/qrcode.react) - A &lt;QRCode/&gt; component for use with React.
- - [react-children-utilities](https://github.com/fernandopasik/react-children-utilities) - Extended utils for React.Children.
 
 
-### i18n
 
-*Internationalization / L10n / localization / translation*
+# i18n
+
+<em>
+Internationalization / translation (/ l10n / localization).
+
+Our users speak different languages and our app's text should accordingly be shown in different languages. What libraries are there to help add i18n to a React app?
+</em>
 
  - [react-intl](https://github.com/yahoo/react-intl) - Internationalize React apps. This library provides React components and an API to format dates, numbers, and strings, including pluralization and handling translations.
  - [react-i18next](https://github.com/i18next/react-i18next) - Internationalization for react done right. Using the i18next i18n ecosystem.
+ - [react-translate-component](https://github.com/martinandert/react-translate-component) - A component for React that utilizes the Counterpart module to provide multi-lingual/localized text content.
+
+
 
 
 
@@ -2243,7 +2260,7 @@ Are there libraries that help reduce the overall size of my application?
 
 ## Dev Tools
 
-# User tracking Utilities
+# User Tracking Utilities
 
 <em>
 Utilities to help track user activity.
@@ -2372,3 +2389,4 @@ This is essentially a list of libraries missing a Need (yet).*
  - [react-css-components](https://github.com/andreypopp/react-css-components) - Define React presentational components with CSS.
  - [react-inspector](https://github.com/xyc/react-inspector) - Power of Browser DevTools inspectors right inside your React app.
  - [react-json-inspector](https://github.com/Lapple/react-json-inspector) - React JSON inspector component.
+ - [react-children-utilities](https://github.com/fernandopasik/react-children-utilities) - Extended utils for React.Children.
