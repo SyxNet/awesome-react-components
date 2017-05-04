@@ -1428,7 +1428,7 @@ What utilities are there to help me implement responsive layout?
  - [flexbox-react](https://github.com/nachoaIvarez/flexbox-react) Unopinionated, standard compliant flexbox components. You don't need to learn any propietary syntax. If you know how to use flexbox, you know how to use flexbox-react components.
  - [react-flexbox](https://github.com/tcoopman/react-flexbox) - React flexbox implementation.
  - [reflexbox](https://github.com/jxnblk/reflexbox) - React flexbox layout and grid system.
- - [hedron](https://github.com/JSBros/hedron#example-usage) - A no-frills flexbox grid system for React, powered by styled-components.
+ - [hedron](https://github.com/JSBros/hedron) - A no-frills flexbox grid system for React, powered by styled-components.
  - [react-responsive](https://github.com/contra/react-responsive) - Media queries in react for responsive design.
  - [react-media](https://github.com/ReactTraining/react-media) A CSS media query component for React.
 
